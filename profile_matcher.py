@@ -8,7 +8,7 @@ import re
 import google.generativeai as genai
 
 class TikTokProfileMatcher:
-    def __init__(self, gemini_api_key='AIzaSyA8-o0dWnYCGvQ9X7Nu1PFv9kpHe2ISeHg'):
+    def __init__(self, gemini_api_key='geminikey'):
         # Initialize Gemini AI for profile evaluation
         self.gemini_api_key = gemini_api_key
         genai.configure(api_key=self.gemini_api_key)
